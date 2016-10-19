@@ -1,0 +1,100 @@
+05/09/2016 00:00:01.595::info::General::[50]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:00:01.596::info::General::[50]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:00:01.596::info::General::[50]::ProcessQueue : templateType = null
+05/09/2016 00:00:01.600::info::General::[50]::ProcessQueue : queue.Count = 0
+05/09/2016 00:00:01.602::info::General::[46]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:00:01.603::info::General::[46]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:00:01.634::info::General::[46]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:00:15.600::info::General::[31]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:00:15.601::info::General::[31]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:00:15.601::info::General::[31]::ProcessQueue : templateType = null
+05/09/2016 00:00:15.605::info::General::[31]::ProcessQueue : queue.Count = 0
+05/09/2016 00:00:15.712::info::General::[60]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:00:15.713::info::General::[60]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:00:15.746::info::General::[60]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:00:30.607::info::General::[22]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:00:30.608::info::General::[22]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:00:30.608::info::General::[22]::ProcessQueue : templateType = null
+05/09/2016 00:00:30.612::info::General::[22]::ProcessQueue : queue.Count = 0
+05/09/2016 00:00:30.812::info::General::[27]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:00:30.812::info::General::[27]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:00:30.844::info::General::[27]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:00:45.614::info::General::[43]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:00:45.615::info::General::[43]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:00:45.615::info::General::[43]::ProcessQueue : templateType = null
+05/09/2016 00:00:45.619::info::General::[43]::ProcessQueue : queue.Count = 0
+05/09/2016 00:00:45.913::info::General::[61]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:00:45.914::info::General::[61]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:00:45.946::info::General::[61]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:01:00.621::info::General::[24]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:01:00.622::info::General::[24]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:01:00.622::info::General::[24]::ProcessQueue : templateType = null
+05/09/2016 00:01:00.626::info::General::[24]::ProcessQueue : queue.Count = 0
+05/09/2016 00:01:01.013::info::General::[28]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:01:01.014::info::General::[28]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:01:01.049::info::General::[28]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:01:15.119::info::General::[20]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:01:15.120::info::General::[20]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:01:15.151::info::General::[20]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:01:15.628::info::General::[44]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:01:15.629::info::General::[44]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:01:15.629::info::General::[44]::ProcessQueue : templateType = null
+05/09/2016 00:01:15.633::info::General::[44]::ProcessQueue : queue.Count = 0
+05/09/2016 00:01:30.217::info::General::[52]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:01:30.217::info::General::[52]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:01:30.248::info::General::[52]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:01:30.634::info::General::[38]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:01:30.635::info::General::[38]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:01:30.635::info::General::[38]::ProcessQueue : templateType = null
+05/09/2016 00:01:30.640::info::General::[38]::ProcessQueue : queue.Count = 0
+05/09/2016 00:01:45.310::info::General::[43]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:01:45.310::info::General::[43]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:01:45.330::info::General::[43]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:01:45.640::info::General::[61]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:01:45.642::info::General::[61]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:01:45.642::info::General::[61]::ProcessQueue : templateType = null
+05/09/2016 00:01:45.644::info::General::[61]::ProcessQueue : queue.Count = 0
+05/09/2016 00:02:00.377::info::General::[30]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:02:00.377::info::General::[30]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:02:00.407::info::General::[30]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:02:00.646::info::General::[28]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:02:00.647::info::General::[28]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:02:00.647::info::General::[28]::ProcessQueue : templateType = null
+05/09/2016 00:02:00.652::info::General::[28]::ProcessQueue : queue.Count = 0
+05/09/2016 00:02:15.479::info::General::[21]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:02:15.480::info::General::[21]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:02:15.513::info::General::[21]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:02:15.654::info::General::[34]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:02:15.655::info::General::[34]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:02:15.655::info::General::[34]::ProcessQueue : templateType = null
+05/09/2016 00:02:15.659::info::General::[34]::ProcessQueue : queue.Count = 0
+05/09/2016 00:02:30.586::info::General::[20]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:02:30.586::info::General::[20]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:02:30.618::info::General::[20]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:02:30.661::info::General::[38]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:02:30.662::info::General::[38]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:02:30.662::info::General::[38]::ProcessQueue : templateType = null
+05/09/2016 00:02:30.665::info::General::[38]::ProcessQueue : queue.Count = 0
+05/09/2016 00:02:45.667::info::General::[31]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:02:45.668::info::General::[31]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:02:45.668::info::General::[31]::ProcessQueue : templateType = null
+05/09/2016 00:02:45.672::info::General::[31]::ProcessQueue : queue.Count = 0
+05/09/2016 00:02:45.683::info::General::[36]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:02:45.684::info::General::[36]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:02:45.716::info::General::[36]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:03:00.674::info::General::[20]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:03:00.675::info::General::[20]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:03:00.675::info::General::[20]::ProcessQueue : templateType = null
+05/09/2016 00:03:00.679::info::General::[20]::ProcessQueue : queue.Count = 0
+05/09/2016 00:03:00.782::info::General::[38]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:03:00.783::info::General::[38]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:03:00.819::info::General::[38]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:03:15.681::info::General::[23]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:03:15.682::info::General::[23]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:03:15.682::info::General::[23]::ProcessQueue : templateType = null
+05/09/2016 00:03:15.686::info::General::[23]::ProcessQueue : queue.Count = 0
+05/09/2016 00:03:15.904::info::General::[22]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:03:15.904::info::General::[22]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:03:15.936::info::General::[22]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:03:30.689::info::General::[47]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:03:30.689::info::General::[47]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0

@@ -36,8 +36,8 @@
             this.outputBox = new System.Windows.Forms.RichTextBox();
             this.numberBox = new System.Windows.Forms.TextBox();
             this.numberLabel = new System.Windows.Forms.Label();
-            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.cutButton = new System.Windows.Forms.Button();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 

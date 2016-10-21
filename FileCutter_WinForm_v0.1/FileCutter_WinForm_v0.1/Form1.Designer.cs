@@ -30,13 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.exitButton = new System.Windows.Forms.Button();
             this.browseButton = new System.Windows.Forms.Button();
             this.fileNameBox = new System.Windows.Forms.TextBox();
             this.outputBox = new System.Windows.Forms.RichTextBox();
-            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.exitButton = new System.Windows.Forms.Button();
             this.numberBox = new System.Windows.Forms.TextBox();
             this.numberLabel = new System.Windows.Forms.Label();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.cutButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,23 +46,36 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 85F));
-            this.tableLayoutPanel1.Controls.Add(this.exitButton, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.exitButton, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.browseButton, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.fileNameBox, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.outputBox, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.numberBox, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.numberLabel, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.cutButton, 1, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(457, 262);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            // 
+            // exitButton
+            // 
+            this.exitButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.exitButton.Location = new System.Drawing.Point(375, 235);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(79, 24);
+            this.exitButton.TabIndex = 0;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // browseButton
             // 
@@ -92,30 +106,15 @@
             this.outputBox.Location = new System.Drawing.Point(3, 33);
             this.outputBox.Name = "outputBox";
             this.outputBox.ReadOnly = true;
-            this.outputBox.Size = new System.Drawing.Size(366, 166);
+            this.outputBox.Size = new System.Drawing.Size(366, 136);
             this.outputBox.TabIndex = 3;
             this.outputBox.Text = "";
-            // 
-            // openFileDialog
-            // 
-            this.openFileDialog.FileName = "openFileDialog1";
-            // 
-            // exitButton
-            // 
-            this.exitButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.exitButton.Location = new System.Drawing.Point(375, 235);
-            this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(79, 24);
-            this.exitButton.TabIndex = 0;
-            this.exitButton.Text = "Exit";
-            this.exitButton.UseVisualStyleBackColor = true;
-            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // numberBox
             // 
             this.numberBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.numberBox.HideSelection = false;
-            this.numberBox.Location = new System.Drawing.Point(375, 207);
+            this.numberBox.Location = new System.Drawing.Point(375, 177);
             this.numberBox.Name = "numberBox";
             this.numberBox.Size = new System.Drawing.Size(79, 20);
             this.numberBox.TabIndex = 4;
@@ -125,11 +124,23 @@
             // 
             this.numberLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.numberLabel.AutoSize = true;
-            this.numberLabel.Location = new System.Drawing.Point(236, 210);
+            this.numberLabel.Location = new System.Drawing.Point(236, 180);
             this.numberLabel.Name = "numberLabel";
             this.numberLabel.Size = new System.Drawing.Size(133, 13);
             this.numberLabel.TabIndex = 5;
             this.numberLabel.Text = "Number of lines required ->";
+            // 
+            // cutButton
+            // 
+            this.cutButton.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
+            this.cutButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cutButton.Location = new System.Drawing.Point(375, 205);
+            this.cutButton.Name = "cutButton";
+            this.cutButton.Size = new System.Drawing.Size(79, 24);
+            this.cutButton.TabIndex = 6;
+            this.cutButton.Text = "Cut";
+            this.cutButton.UseVisualStyleBackColor = true;
+            this.cutButton.Click += new System.EventHandler(this.cutButton_Click);
             // 
             // MainForm
             // 
@@ -157,6 +168,7 @@
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.TextBox numberBox;
         private System.Windows.Forms.Label numberLabel;
+        private System.Windows.Forms.Button cutButton;
     }
 }
 

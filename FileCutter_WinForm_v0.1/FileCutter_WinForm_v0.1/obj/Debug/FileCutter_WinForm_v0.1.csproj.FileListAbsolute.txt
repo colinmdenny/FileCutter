@@ -1,0 +1,15 @@
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\bin\Debug\FileCutter_WinForm_v0.1.exe.config
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\bin\Debug\FileCutter_WinForm_v0.1.exe.manifest
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\bin\Debug\FileCutter_WinForm_v0.1.application
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\bin\Debug\FileCutter_WinForm_v0.1.exe
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\bin\Debug\FileCutter_WinForm_v0.1.pdb
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\obj\Debug\LogBlog_WinForm_v0._2.MainForm.resources
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\obj\Debug\FileCutter_WinForm_v0._1.Properties.Resources.resources
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\obj\Debug\FileCutter_WinForm_v0.1.csproj.GenerateResource.Cache
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\obj\Debug\FileCutter_WinForm_v0.1.exe.manifest
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\obj\Debug\FileCutter_WinForm_v0.1.application
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\obj\Debug\FileCutter_WinForm_v0.1.exe
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\LogBlog_WinForm_v0.2\obj\Debug\FileCutter_WinForm_v0.1.pdb
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\FileCutter_WinForm_v0.1\bin\Debug\FileCutter_WinForm_v0.1.exe.config
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\FileCutter_WinForm_v0.1\obj\Debug\FileCutter_WinForm_v0.1.exe
+D:\Work\GitHub\FileCutter\trunk\FileCutter_WinForm_v0.1\FileCutter_WinForm_v0.1\obj\Debug\FileCutter_WinForm_v0.1.pdb

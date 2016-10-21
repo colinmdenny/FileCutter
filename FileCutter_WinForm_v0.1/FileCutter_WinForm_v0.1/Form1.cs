@@ -25,30 +25,12 @@ namespace LogBlog_WinForm_v0._2
                 // Show the file select dialog and assign the result.
                 DialogResult result = openFileDialog.ShowDialog();
                 string fileAddress = openFileDialog.FileName;
-                string fileName = Path.GetFileName(fileAddress);
-                string filePath = Path.GetDirectoryName(fileAddress) + "\\";
 
-                //Show the user teh path and filename
+                //Ensure fileNameBox is empty
+                this.fileNameBox.Clear();
+                
+                //Show user the path and filename
                 UpdateFileNameBox(fileAddress);
-
-                //Get how many lines are required and assign
-                int lines = int.Parse(numberBox.Text);     
-
-                // Initiate the cut of the file
-                var firstLines = File.ReadLines(fileAddress).Take(lines).ToList();
-                UpdateOutput("Succesfully taken " + lines + " lines from " + fileName + Environment.NewLine);
-
-                // Build the new file path
-                string newFileAddress = filePath + lines + "_" + fileName;
-
-                //Write the lines to the new file
-                TextWriter tw = new StreamWriter(newFileAddress);
-
-                foreach (String s in firstLines)
-                    tw.WriteLine(s);
-
-                tw.Close();
-                UpdateOutput("Succesfully output " + lines + " lines to " + newFileAddress + Environment.NewLine + Environment.NewLine);
             }
             catch (Exception ex)
             {
@@ -79,6 +61,39 @@ namespace LogBlog_WinForm_v0._2
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void cutButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string fileAddress = fileNameBox.Text;
+                string fileName = Path.GetFileName(fileAddress);
+                string filePath = Path.GetDirectoryName(fileAddress) + "\\";
+
+                //Get how many lines are required and assign
+                int lines = int.Parse(numberBox.Text);
+
+                // Initiate the cut of the file
+                var firstLines = File.ReadLines(fileAddress).Take(lines).ToList();
+                UpdateOutput("Succesfully taken " + lines + " lines from " + fileName + Environment.NewLine);
+
+                // Build the new file path
+                string newFileAddress = filePath + lines + "_" + fileName;
+
+                //Write the lines to the new file
+                TextWriter tw = new StreamWriter(newFileAddress);
+
+                foreach (String s in firstLines)
+                    tw.WriteLine(s);
+
+                tw.Close();
+                UpdateOutput("Succesfully output " + lines + " lines to " + newFileAddress + Environment.NewLine + Environment.NewLine);
+            }
+            catch (Exception ex)
+            {
+                UpdateOutput("EXCEPTION - " + ex.Message + Environment.NewLine);
+            }
         }
     }
 }

@@ -1,0 +1,10 @@
+05/09/2016 00:00:01.595::info::General::[50]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:00:01.596::info::General::[50]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:00:01.596::info::General::[50]::ProcessQueue : templateType = null
+05/09/2016 00:00:01.600::info::General::[50]::ProcessQueue : queue.Count = 0
+05/09/2016 00:00:01.602::info::General::[46]::PoolProcInstanceChangeNotificationMethod: Get template
+05/09/2016 00:00:01.603::info::General::[46]::PoolProcInstanceChangeNotificationMethod: Main loop
+05/09/2016 00:00:01.634::info::General::[46]::PoolProcInstanceChangeTriggerMethod.Process started
+05/09/2016 00:00:15.600::info::General::[31]::ProcessEmailQueue : batchSize = 10
+05/09/2016 00:00:15.601::info::General::[31]::ProcessEmailQueue : _config.LimitSendingByTemplateTypes.Count == 0
+05/09/2016 00:00:15.601::info::General::[31]::ProcessQueue : templateType = null

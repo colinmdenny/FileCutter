@@ -25,9 +25,6 @@ namespace LogBlog_WinForm_v0._2
                 // Show the file select dialog and assign the result.
                 DialogResult result = openFileDialog.ShowDialog();
                 string fileAddress = openFileDialog.FileName;
-
-                //Ensure fileNameBox is empty
-                this.fileNameBox.Clear();
                 
                 //Show user the path and filename
                 UpdateFileNameBox(fileAddress);
@@ -44,12 +41,15 @@ namespace LogBlog_WinForm_v0._2
         }
 
         public void UpdateOutput (String text)
-        {
-           this.outputBox.AppendText(text);
+        {   
+            this.outputBox.AppendText(text);
         }
 
         public void UpdateFileNameBox(String text)
         {
+            //Ensure fileNameBox is empty
+            this.fileNameBox.Clear();
+            
             this.fileNameBox.AppendText(text);
         }
 
